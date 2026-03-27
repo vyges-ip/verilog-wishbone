@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/alexforencich/verilog-wishbone
+  branch: master
+  commit: d1fa24a0e5634160536c199eab42f1af720d14ff
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: MIT
+  file: LICENSE
